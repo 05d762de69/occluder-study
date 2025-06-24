@@ -3,7 +3,7 @@
 *.mex*
 slprj/
 
-# Generated results (can be regenerated)results/cache/
+# Generated results (can be regenerated)
 results/figures/stimuli/
 
 # OS files
