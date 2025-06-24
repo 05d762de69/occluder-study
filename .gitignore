@@ -1,0 +1,14 @@
+# MATLAB temporary files
+*.asv
+*.mex*
+slprj/
+
+# Generated results (can be regenerated)results/cache/
+results/figures/stimuli/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary data
+*~
