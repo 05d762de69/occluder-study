@@ -1,4 +1,3 @@
-function APR_runProbabilisticCompletionDemo()
 % APR_runProbabilisticCompletionDemo
 %
 % Updated with:
@@ -12,7 +11,7 @@ function APR_runProbabilisticCompletionDemo()
     clear; clc; close all;
 
     %% Load shape data
-    shapesFile = 'shapes_0046.mat';
+    shapesFile = '/Users/I743312/Documents/MATLAB/occluder-study/data/processed/stimuli_files/shapes_0046.mat';
     S = load(shapesFile, 'shapes');
     shape = S.shapes(1);
     silhouette = shape.silhouette;
@@ -23,7 +22,7 @@ function APR_runProbabilisticCompletionDemo()
         size(silhouette,1), size(occluder,1));
 
     %% Load heatmap
-    heatmapFile = 'heatmap_0046.mat';
+    heatmapFile = '/Users/I743312/Documents/MATLAB/occluder-study/approaches/heatmap/data/processed/heatmaps/animal_shapes/heatmap_0046.mat';
     H = load(heatmapFile, 'normalized_heatmap');
     heatmap = H.normalized_heatmap;
     [height, width] = size(heatmap);

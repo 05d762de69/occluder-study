@@ -16,8 +16,8 @@ function APR_shape_completion_demo3()
     % --------------------------------------------------------------------
 
     %% 0) Load data -------------------------------------------------------
-    S = load('shapes_0056.mat','shapes');
-    H = load('heatmap_0056.mat','normalized_heatmap');
+    S = load('/Users/I743312/Documents/MATLAB/occluder-study/data/processed/stimuli_files/shapes_0046.mat','shapes');
+    H = load('/Users/I743312/Documents/MATLAB/occluder-study/approaches/heatmap/data/processed/heatmaps/animal_shapes/heatmap_0046.mat','normalized_heatmap');
     shape = S.shapes(1);
 
     silhouette = shape.silhouette;

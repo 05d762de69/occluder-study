@@ -1,4 +1,4 @@
-%% demoAPRHeatmap.m
+%% main_runProbabilisticCompletion.m
 %
 % Example usage of APR_heatmap.m
 %
@@ -12,7 +12,7 @@
 clear; clc; close all;
 
 %% Paths
-netFile        = '/Users/I743312/Documents/MATLAB/CNN Project/data/trainedNet.mat';
+netFile        = '/Users/I743312/Documents/MATLAB/occluder-study/data/models/trainedNet_20250624.mat';
 occludedFile   = '/Users/I743312/Documents/MATLAB/CNN Project/data/generated_images/with_occluder/silOccl_0056.png';
 completionDir  = '/Users/I743312/Documents/MATLAB/CNN Project/data/generated_images/random_segments';
 outHeatmapMat  = 'heatmap_0056.mat';
