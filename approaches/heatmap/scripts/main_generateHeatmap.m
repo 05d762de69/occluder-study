@@ -1,4 +1,4 @@
-%% main_runProbabilisticCompletion.m
+%% main_generateHeatmap.m
 %
 % Example usage of APR_heatmap.m
 %

@@ -1,4 +1,4 @@
-function APR_shape_completion_demo3()
+%% main_runProbabilisticCompletion.m
 % -------------------------------------------------------------------------
 % KDE-driven completion with a flexible, anchor-preserving regression line
 %
