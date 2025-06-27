@@ -4,7 +4,9 @@
 slprj/
 
 # Generated results (can be regenerated)
-results/figures/stimuli/
+data/processed/stimuli_files/
+
+
 
 # OS files
 .DS_Store
