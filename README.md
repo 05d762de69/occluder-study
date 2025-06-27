@@ -44,23 +44,22 @@ occluder-study/
 ### Running the Analysis
 ```matlab
 % Current best approach
-cd approaches/heatmap/scripts
-run('main_heatmap.m')
+cd approaches/cluster_heatmap/scripts
+run('main_runTNSE.m')
 ```
 
 ## Research Approaches
 
-### Current: Heatmap Visualization
+### Current: Clustering + Heatmap
 **Status:** Active development  
-**Method:** Generate probabilistic heatmaps from network activations and fits a spline
-**Location:** `approaches/heatmap/`
+**Method:** Clusters network activations and fits a spline over probabilistic cluster heatmap
+**Location:** `approaches/cluster_heatmap/`
 
 ### Previous Approaches
+- **Heatmap Fitting** (Abandoned): Generate probabilistic heatmaps from network activations and fits a spline
 - **B-spline Completion** (Abandoned): Direct curve fitting approach for stimuli generation
 - **Clustering Analysis** (Abandoned): Prototype-based completion / best cluster based on random sampling and comparing distances
 - **Procrustes Methods** (Abandoned): Shape alignment techniques for stimuli generation
-
-See `EXPERIMENT_LOG.md` for detailed research timeline.
 
 ## Data
 - **Raw stimuli:** File containing different classes of shape contours
