@@ -1,4 +1,4 @@
-%% main_runProbabilisticCompletion.m
+% main_runProbabilisticCompletion.m
 % -------------------------------------------------------------------------
 % KDE-driven completion with a flexible, anchor-preserving regression line
 %
